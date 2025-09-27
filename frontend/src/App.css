@@ -1,0 +1,140 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #b9e1fd;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  background-color: #4fadfa;
+  color: white;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background-color: #4fadfa;
+  color: #fff;
+  position: fixed;
+  width: 600px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+nav {
+  text-align: center;
+  padding: 1rem;
+  background-color: #444;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.page-container {
+  padding: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  color: #333;
+}
+
+tr:hover {
+  background-color: #f7c6c6;
+}
+
+input, select, button {
+  font-family: 'Arial', sans-serif;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #333;
+  background-color: #f6efcd;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0028db;
+  ;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #4fadfa;
+  color: #fff;
+  position: fixed;
+  width: 600px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+}
+
+button.icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 0 4px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+button.icon-button:hover {
+  color: #0028db;
+}
